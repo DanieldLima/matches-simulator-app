@@ -2,4 +2,5 @@
 <resources>
     <string name="app_name">Simulador</string>
     <string name="greeting">Kotlin - Primeira aplicação!</string>
+    <string name="floating_btn_description">Botão de busca</string>
 </resources>
