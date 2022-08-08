@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- global strings -->
     <string name="app_name">Simulador</string>
     <string name="greeting">Kotlin - Primeira aplicação!</string>
-    <string name="am_fab_description">Botão de simulação de partidas.</string>
+
+    <!-- activity_main layout -->
+    <string name="activity_main_cb_btn_simulate">Botão de simulação de partidas.</string>
+
+    <!-- match_item layout -->
+    <string name="match_item_cd_team_home">Imagem do time mandante.</string>
+    <string name="match_item_cd_team_away">Imagem do time visitante.</string>
 </resources>

@@ -1,5 +1,13 @@
 <resources>
+    <!-- global strings -->
     <string name="app_name">Simulator</string>
     <string name="greeting">Kotlin - Hello World!</string>
-    <string name="am_fab_description">Match simulation button.</string>
+
+    <!-- activity_main layout -->
+    <string name="activity_main_cb_btn_simulate">Matches simulation button.</string>
+
+    <!-- match_item layout -->
+    <string name="match_item_cd_team_home">Image of the home team.</string>
+    <string name="match_item_cd_team_away">Away team image.</string>
+    <string name="match_item_txt_versus" translatable="false">X</string>
 </resources>
