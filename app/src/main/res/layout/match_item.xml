@@ -17,7 +17,7 @@
             android:layout_height="@dimen/team_image_size"
             android:layout_marginStart="@dimen/margin_default"
             android:layout_marginTop="@dimen/margin_default"
-            android:contentDescription="@string/match_item_cd_team_home"
+            android:contentDescription="@string/cd_home_team"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:srcCompat="@tools:sample/avatars" />
@@ -51,7 +51,7 @@
             android:id="@+id/tvVersus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/match_item_txt_versus"
+            android:text="@string/txt_versus"
             android:textAlignment="center"
             app:layout_constraintBottom_toBottomOf="@+id/ivHomeTeam"
             app:layout_constraintEnd_toEndOf="parent"
@@ -64,7 +64,7 @@
             android:layout_height="120dp"
             android:layout_marginTop="@dimen/margin_default"
             android:layout_marginEnd="@dimen/margin_default"
-            android:contentDescription="@string/match_item_cd_team_away"
+            android:contentDescription="@string/cd_away_team"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:srcCompat="@tools:sample/avatars" />
