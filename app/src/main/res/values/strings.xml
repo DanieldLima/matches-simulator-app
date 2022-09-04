@@ -9,6 +9,7 @@
 
     <!-- activity_main layout -->
     <string name="activity_main_cb_btn_simulate">Matches simulation button.</string>
+    <string name="error_api">Unexpected error.</string>
 
     <!-- match_item layout -->
 </resources>

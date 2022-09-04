@@ -9,6 +9,7 @@
 
     <!-- activity_main layout -->
     <string name="activity_main_cb_btn_simulate">Botão de simulação de partidas.</string>
+    <string name="error_api">Error inesperado.</string>
 
     <!-- match_item layout -->
 </resources>

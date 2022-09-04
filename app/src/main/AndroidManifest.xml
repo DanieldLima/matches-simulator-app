@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="me.dio.simulator">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -16,7 +18,7 @@
 
         <!-- Home -->
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,7 +29,7 @@
 
         <!-- Match Details -->
         <activity
-            android:name=".DetailActivity"
+            android:name=".ui.DetailActivity"
             android:theme="@style/Theme.Simulator.NoActionBar"
             android:exported="true"/>
     </application>
