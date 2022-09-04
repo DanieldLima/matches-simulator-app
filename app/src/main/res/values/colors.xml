@@ -10,6 +10,7 @@
     <color name="secondary_700">#d32f2f</color>
     <color name="secondary_900">#b71c1c</color>
 
+    <color name="black_90">#121212</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>
