@@ -8,25 +8,28 @@
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/srlMatches"
-        android:layout_width="@dimen/margin_zero"
-        android:layout_height="@dimen/margin_zero"
+        android:layout_width="@dimen/value_zero"
+        android:layout_height="@dimen/value_zero"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rvMatches"
-            tools:listitem="@layout/match_item"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:itemCount="3"/>
+            tools:itemCount="3"
+            tools:listitem="@layout/match_item" />
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabSimulate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:fabCustomSize="64dp"
         android:layout_marginEnd="@dimen/margin_default"
         android:layout_marginBottom="@dimen/margin_default"
         android:clickable="true"
@@ -34,6 +37,9 @@
         android:focusable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/ic_primary_simulate" />
+        app:tint="@color/white"
+        android:backgroundTint="@color/primary_700"
+        app:borderWidth="@dimen/value_zero"
+        app:srcCompat="@drawable/ic_btn_simulate_primary" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

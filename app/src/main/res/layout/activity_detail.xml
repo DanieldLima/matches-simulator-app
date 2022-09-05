@@ -37,7 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 android:background="@android:color/transparent"
-                android:elevation="@dimen/margin_zero" />
+                android:elevation="@dimen/value_zero" />
 
             <ImageView
                 android:id="@+id/ivShadowText"
@@ -81,7 +81,7 @@
 
             <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/tvDescription"
-                android:layout_width="@dimen/margin_zero"
+                android:layout_width="@dimen/value_zero"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/margin_default"
                 android:layout_marginTop="@dimen/margin_default"
